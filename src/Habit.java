@@ -43,7 +43,6 @@ public abstract class Habit {
 
     public abstract String getCategoryLabel();
 
-    @Override
     public String toString() {
         return habitTitle + " (created " + creationDate + ", goal " + goalDayCount + " days)";
     }
