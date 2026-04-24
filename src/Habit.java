@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public abstract class Habit {
     public static final int MAX_DIFFICULTY = 5;
     public static final int MIN_DIFFICULTY = 1;
-    public static final int DEFAULT_GOAL_DAYS = 66; // from Lally 2010 for habit automaticity
+    public static final int DEFAULT_GOAL_DAYS = 66; 
 
     private String habitTitle;
     private String creationDate;
