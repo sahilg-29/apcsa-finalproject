@@ -54,7 +54,6 @@ public class DailyEntry {
         return noteText;
     }
 
-    @Override
     public String toString() {
         String status = completionFlag ? "DONE" : "SKIP";
         String note = noteText.isEmpty() ? "" : " — " + noteText;
