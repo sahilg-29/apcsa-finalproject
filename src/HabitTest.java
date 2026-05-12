@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Simple test class for habits
 public class HabitTest {
     public static void main(String[] args) {
         ArrayList<Habit> habitRegistry = new ArrayList<Habit>();
